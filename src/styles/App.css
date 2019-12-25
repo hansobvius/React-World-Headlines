@@ -1,0 +1,108 @@
+* {
+  width: 100%;
+}
+
+body{
+  margin: 0%;
+  width: 100%;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header h3{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  flex: 1 0 0;
+}
+
+.header h2 {
+  padding: 16px;
+  font-size: 200%;
+  flex: 2 0 0;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.body-news ul{
+  list-style: none;  
+  padding: 0;
+}
+
+.news-box{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.news-box-info{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.article-text {
+  width: 85%;
+  margin: 0 0 0 10px;
+}
+
+.article-img{
+  background-color: azure;
+  width: 100%;
+  height: 60vh;
+}
+
+@media (max-width: 720px){
+  .news-box-info{
+      width: 100%;
+  }
+}
+
+.country-menu-body{
+  width: 32vh;
+}
+
+.country-menu-list{
+  z-index: -1;
+  list-style: none;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 5px 10px 3px #999966;
+}
+
+.country-menu-list li{
+  padding: 4px;
+  margin: 0 5px 0 0;
+  color: white;
+}
+
+.form-box{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-box form{
+  width: 60%;
+}
+
+.form-box input{
+  width: 70%;
+}
+
+.form-box button{
+  width: 10%;
+  margin: 0;
+}
